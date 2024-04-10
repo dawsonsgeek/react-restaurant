@@ -85,3 +85,5 @@ npm install
 npm install @reduxjs/toolkit  
 npm i react-redux
 npm start
+
+npx update-browserslist-db@latest
