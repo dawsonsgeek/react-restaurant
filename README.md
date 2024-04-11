@@ -23,9 +23,7 @@
 
 
 # Namaste Food
-
-
-/**
+/*
  * Header
  *  - Logo
  *  - Nav Items
@@ -80,6 +78,24 @@ import {Component} from "path";
   - Selector
 
 
+
+# Types of testing (developer)
+- Unit testing
+- Integration testing
+- End to end teasting - e2e testing
+
+
+# setting up Testing in our App
+- Install Reast Tesxting Library
+- Installed jest
+- Installed Babel dependencies
+- Configure Babel
+- Config parcel config file to disable default babel tranpilation
+- Jest - npx jest --init
+- Install jsdom library
+
+
+
 # Terminal Commandes
 npm install
 npm install @reduxjs/toolkit  
@@ -87,3 +103,13 @@ npm i react-redux
 npm start
 
 npx update-browserslist-db@latest
+npm install --save-dev @testing-library/react
+npm install --save-dev babel-jest @babel/core @babel/preset-env
+
+
+npm i -D @testing-library/react
+npm i -D jest
+npm run test
+npx jest --init
+
+npm install --save-dev jest-environment-jsdom

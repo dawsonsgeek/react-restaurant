@@ -70,7 +70,8 @@ const Body = () => {
               console.log(searchText);
 
               const filteredRestaurant = listOfRestaurants.filter((res) =>
-                res.data.name.toLowerCase().includes(searchText.toLowerCase())
+              // console.log(res.info)
+                res.info.name.toLowerCase().includes(searchText.toLowerCase())
               );
 
               setFilteredRestaurant(filteredRestaurant);
