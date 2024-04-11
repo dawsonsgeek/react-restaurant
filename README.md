@@ -1,4 +1,6 @@
 # React Restaurant
+Live Demo https://react-restaurant-1s5u.onrender.com
+
 
 
 # Parcel
@@ -23,22 +25,24 @@
 
 
 # Namaste Food
-/*
- * Header
- *  - Logo
- *  - Nav Items
- * Body
- *  - Search
- *  - RestaurantContainer
- *    - RestaurantCard
- *      - Img
- *      - Name of Res, Star Rating, cuisine, delery tie
- * Footer
- *  - Copyright
- *  - Links
- *  - Address
- *  - Contact
- */
+
+Header
+ - Logo
+ - Nav Items
+ 
+Body
+ - Search
+ - RestaurantContainer
+ - RestaurantCard
+- - Img
+- - Name of Res, Star Rating, cuisine, delery tie
+
+ Footer
+- Copyright
+- Links
+- Address
+- Contact
+ 
 
 
 
@@ -97,6 +101,8 @@ import {Component} from "path";
 
 
 # Terminal Commandes
+
+```
 npm install
 npm install @reduxjs/toolkit  
 npm i react-redux
@@ -113,3 +119,4 @@ npm run test
 npx jest --init
 
 npm install --save-dev jest-environment-jsdom
+```
