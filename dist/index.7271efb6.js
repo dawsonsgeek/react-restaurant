@@ -35472,8 +35472,8 @@ const Body = ()=>{
                         children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("button", {
                             className: "px-4 py-2 bg-gray-100 rounded-lg",
                             onClick: ()=>{
-                                const filteredList = listOfRestaurants.filter((res)=>res.data.avgRating > 4);
-                                setListOfRestaurant(filteredList);
+                                const filteredList = listOfRestaurants.filter((res)=>res.info.avgRating > 4);
+                                setFilteredRestaurant(filteredList);
                             },
                             children: "Top Rated Restaurants"
                         }, void 0, false, {
@@ -35490,10 +35490,10 @@ const Body = ()=>{
                         className: "search m-4 p-4 flex items-center",
                         children: [
                             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("label", {
-                                children: "UserName : "
+                                children: "UserName: "
                             }, void 0, false, {
                                 fileName: "src/components/Body.js",
-                                lineNumber: 97,
+                                lineNumber: 96,
                                 columnNumber: 11
                             }, undefined),
                             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("input", {
@@ -35502,13 +35502,13 @@ const Body = ()=>{
                                 onChange: (e)=>setUserName(e.target.value)
                             }, void 0, false, {
                                 fileName: "src/components/Body.js",
-                                lineNumber: 98,
+                                lineNumber: 97,
                                 columnNumber: 11
                             }, undefined)
                         ]
                     }, void 0, true, {
                         fileName: "src/components/Body.js",
-                        lineNumber: 96,
+                        lineNumber: 95,
                         columnNumber: 9
                     }, undefined)
                 ]
@@ -35525,23 +35525,23 @@ const Body = ()=>{
                             resData: restaurant
                         }, void 0, false, {
                             fileName: "src/components/Body.js",
-                            lineNumber: 112,
+                            lineNumber: 111,
                             columnNumber: 15
                         }, undefined) : /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _restaurantCardDefault.default), {
                             resData: restaurant
                         }, void 0, false, {
                             fileName: "src/components/Body.js",
-                            lineNumber: 114,
+                            lineNumber: 113,
                             columnNumber: 15
                         }, undefined)
                     }, restaurant.info.id, false, {
                         fileName: "src/components/Body.js",
-                        lineNumber: 107,
+                        lineNumber: 106,
                         columnNumber: 11
                     }, undefined))
             }, void 0, false, {
                 fileName: "src/components/Body.js",
-                lineNumber: 105,
+                lineNumber: 104,
                 columnNumber: 7
             }, undefined)
         ]
@@ -35625,11 +35625,8 @@ const RestaurantCard = (props)=>{
                 columnNumber: 7
             }, undefined),
             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("h4", {
-                children: [
-                    "\u20B9",
-                    costForTwo
-                ]
-            }, void 0, true, {
+                children: costForTwo
+            }, void 0, false, {
                 fileName: "src/components/RestaurantCard.js",
                 lineNumber: 29,
                 columnNumber: 7
@@ -36026,7 +36023,7 @@ const RestaurantMenu = ()=>{
                     dummy: dummy
                 }, category?.card?.card.title, false, {
                     fileName: "src/components/RestaurantMenu.js",
-                    lineNumber: 49,
+                    lineNumber: 50,
                     columnNumber: 9
                 }, undefined))
         ]
